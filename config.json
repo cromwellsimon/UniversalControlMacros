@@ -1,0 +1,35 @@
+{
+    "scaling": 1,
+    "1600_scaling": 1.25,
+    "environment": "production",
+    "scenePosition": {
+        "x": 1145,
+        "y": 545,
+        "1600_x": 1030,
+        "1600_y": 720
+    },
+    "recallPosition": {
+        "x": 50,
+        "y": 500,
+        "1600_x": 60,
+        "1600_y": 600
+    },
+    "terminalPosition": {
+        "x": 2020,
+        "y": 1250,
+        "1600_x": 2130,
+        "1600_y": 1400
+    },
+    "saving": {
+        "position": {
+            "x": 130,
+            "y": 500,
+            "1600_x": 160,
+            "1600_y": 600
+        },
+        "name": "Macro Scene"
+    },
+    "pollingRate": 0.01,
+    "macroScenePath": "C:/Users/cromw/OneDrive/Documents/PreSonus/StudioLive AI/Library/Presets/Scene/Macro Scene.scene",
+    "macrosPath": "../macros.json"
+}

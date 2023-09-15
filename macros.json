@@ -1,0 +1,242 @@
+{
+    "aliases": {
+        "Left Soundpad Name": "$.line.ch1.username",
+        "Solo Mic Mute": "$.line.ch7.mute"
+    },
+    "macros": [
+        {
+            "name": "TestMacro",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro2",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro3",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro4",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro5",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro6",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro7",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro8",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro9",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "TestMacro10",
+            "diff": {
+                "Left Soundpad Name": {
+                    "value": "New Name"
+                }
+            }
+        },
+        {
+            "name": "AbsoluteTestMacro",
+            "diff": {
+                "$.line.ch1.volume": {
+                    "value": -80
+                },
+                "$.line.ch2.volume": {
+                    "value": -70
+                },
+                "$.line.ch3.volume": {
+                    "value": -60
+                },
+                "$.line.ch4.volume": {
+                    "value": -50
+                },
+                "$.line.ch5.volume": {
+                    "value": -40
+                },
+                "$.line.ch6.volume": {
+                    "value": -30
+                },
+                "$.line.ch7.volume": {
+                    "value": -20
+                },
+                "$.line.ch8.volume": {
+                    "value": -10
+                },
+                "$.line.ch9.volume": {
+                    "value": 0
+                },
+                "$.line.ch10.volume": {
+                    "value": 10
+                }
+            }
+        },
+        {
+            "name": "RelativeTestMacro",
+            "diff": {
+                "$.line.ch1.volume": {
+                    "value": 50,
+                    "relative": true
+                },
+                "$.line.ch2.volume": {
+                    "value": 40,
+                    "relative": true
+                },
+                "$.line.ch3.volume": {
+                    "value": 30,
+                    "relative": true
+                },
+                "$.line.ch4.volume": {
+                    "value": 20,
+                    "relative": true
+                },
+                "$.line.ch5.volume": {
+                    "value": 10,
+                    "relative": true
+                },
+                "$.line.ch6.volume": {
+                    "value": 0,
+                    "relative": true
+                },
+                "$.line.ch7.volume": {
+                    "value": -10,
+                    "relative": true
+                },
+                "$.line.ch8.volume": {
+                    "value": -20,
+                    "relative": true
+                },
+                "$.line.ch9.volume": {
+                    "value": -30,
+                    "relative": true
+                },
+                "$.line.ch10.volume": {
+                    "value": -40,
+                    "relative": true
+                }
+            }
+        },
+        {
+            "name": "DelayTestMacro",
+            "diff": {
+                "$.line.ch1.volume": {
+                    "value": 0,
+                    "delay": 0.5
+                },
+                "$.line.ch10.volume": {
+                    "value": 10,
+                    "delay": 10
+                }
+            }
+        },
+        {
+            "name": "FadeTestMacro",
+            "diff": {
+                "$.line.ch1.volume": {
+                    "value": 10,
+                    "fade": 5
+                }
+            }
+        },
+        {
+            "name": "DelayThenFadeTestMacro",
+            "diff": {
+                "$.line.ch2.volume": {
+                    "value": 10,
+                    "delay": 5,
+                    "fade": 5
+                }
+            }
+        },
+        {
+            "name": "DelayThenFadeRelativeTestMacro",
+            "diff": {
+                "$.line.ch2.volume": {
+                    "value": 10,
+                    "delay": 5,
+                    "fade": 5,
+                    "relative": true
+                },
+                "$.line.ch3.volume": {
+                    "value": 10,
+                    "delay": 2.5,
+                    "fade": 7.5,
+                    "relative": false
+                }
+            }
+        },
+        {
+            "name": "Solo Mic Mute",
+            "diff": {
+                "Solo Mic Mute": {
+                    "value": 1
+                }
+            }
+        },
+        {
+            "name": "Solo Mic Unmute",
+            "diff": {
+                "Solo Mic Mute": {
+                    "value": 0
+                }
+            }
+        },
+        {
+            "name": "Test Aux Set",
+            "diff": {
+                "$.line.ch32.aux14": {
+                    "value": 3.14,
+                    "fade": 7.5
+                }
+            }
+        }
+    ]
+}

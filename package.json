@@ -1,0 +1,32 @@
+{
+  "name": "universalcontrolmacros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "npm install",
+    "prelaunch": "tsc --build --clean",
+    "launch": "node dist/UniversalControlMacros/src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "8.2.6",
+    "@types/jsonpath": "^0.2.0",
+    "@types/node": "^20.6.0",
+    "@types/readline-sync": "^1.4.4",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.49.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "inquirer": "8.2.6",
+    "jsonpath": "^1.1.1",
+    "jsonpath-plus": "^7.2.0",
+    "presonus-studiolive-api": "github:featherbear/presonus-studiolive-api#v1.4.2",
+    "readline-sync": "^1.4.10",
+    "robotjs": "^0.6.0"
+  }
+}
