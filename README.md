@@ -4,6 +4,9 @@ I was really missing some of the more advanced scene functionality on the old Ya
 ## Dependencies
 For this project, I am using Node v20.6.1. That should be all that you need for this to work
 
+## Credit
+The only package that I (actively) use in this is [RobotJS](https://robotjs.io/docs/syntax)
+
 ## Setup
 1. Make sure that you have Universal Control open. Knowing that a terminal will be open alongside it, place your Universal Control window in a place that you like. For me personally, I keep my Universal Control on the left side of my screen with my terminal on the right side of the screen.
 2. Go to the full Scene view in Universal Control (click "Scene", then the button immediately below that to get all of your Scenes)
